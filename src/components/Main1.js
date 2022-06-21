@@ -4,6 +4,7 @@ export default function Main(){
   return(
     <>
     <h1>Estou na main</h1>
+    <p>DOug</p>
     </>
   )
 }
