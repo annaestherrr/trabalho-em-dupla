@@ -34,7 +34,7 @@ const ItemsHeader = styled.ul`
 
 const Title = styled.h1`
   height: 85%;
-  font-weight: 500;
+  font-weight:900;
   color: #373737;
   font-size: 150px;
   display: flex;
