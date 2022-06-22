@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const S1 = styled.section`
+const Section = styled.section`
   color: #373737;
   font-size: 3rem;
 `;
@@ -33,7 +33,6 @@ const ContainerFood = styled.ul`
 `;
 
 const ContainerText = styled.div`
-  border: red solid;
   width: 22rem;
   display: flex;
   align-items: center;
@@ -59,9 +58,8 @@ const TitleImage = styled.h3`
 
 export default function Main() {
   return (
-    <>
       <main1>
-        <S1>
+        <Section>
           <ContainerH2>
             <h2>LATEST RECIPES</h2>
             <Borda></Borda>
@@ -98,9 +96,7 @@ export default function Main() {
               </ContainerText>
             </ItemFood>
           </ContainerFood>
-        </S1>
-        <section></section>
+        </Section>
       </main1>
-    </>
   );
 }
