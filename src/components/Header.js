@@ -30,13 +30,22 @@ const ItemsHeader = styled.ul`
   flex-direction: row;
   color: #373737;
   font-size: 1rem;
+
+  :hover {
+    cursor: pointer;
+  }
+
+  p {
+    padding: 1rem;
+    border: #373737 solid;
+  }
 `;
 
 const Title = styled.h1`
   height: 85%;
-  font-weight:900;
+  font-weight: 900;
   color: #373737;
-  font-size: 150px;
+  font-size: 7rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,18 +53,18 @@ const Title = styled.h1`
 
 export default function Header() {
   return (
-    <>
+    <header>
       <Cabeçario>
         <Menu>
           <T2Header>RC</T2Header>
           <ItemsHeader>
             <li>ABOUT</li>
             <li>RECIPES</li>
-            <li>SUBSCRIBE</li>
+            <p>SUBSCRIBE</p>
           </ItemsHeader>
         </Menu>
         <Title>RECIPES</Title>
       </Cabeçario>
-    </>
+    </header>
   );
 }
